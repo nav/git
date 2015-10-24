@@ -1,0 +1,107 @@
+/* Avenir Next */
+@font-face {
+	font-family:'AvenirNext';
+	src: url('../fonts/AvenirNext/AvenirNextRegular.eot');
+	src: url('../fonts/AvenirNext/AvenirNextRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirNext/AvenirNextRegular.woff') format('woff'),
+		 url('../fonts/AvenirNext/AvenirNextRegular.ttf') format('truetype'),
+		 url('../fonts/AvenirNext/AvenirNextRegular.svg#AvenirNextRegular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+
+@font-face {
+	font-family:'AvenirNext';
+	src: url('../fonts/AvenirNext/AvenirNextUltraLight.eot');
+	src: url('../fonts/AvenirNext/AvenirNextUltraLight.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirNext/AvenirNextUltraLight.woff') format('woff'),
+		 url('../fonts/AvenirNext/AvenirNextUltraLight.ttf') format('truetype'),
+		 url('../fonts/AvenirNext/AvenirNextUltraLight.svg#AvenirNextUltraLight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+
+@font-face {
+	font-family:'AvenirNext';
+	src: url('../fonts/AvenirNext/AvenirNextDemiBold.eot');
+	src: url('../fonts/AvenirNext/AvenirNextDemiBold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirNext/AvenirNextDemiBold.woff') format('woff'),
+		 url('../fonts/AvenirNext/AvenirNextDemiBold.ttf') format('truetype'),
+		 url('../fonts/AvenirNext/AvenirNextDemiBold.svg#AvenirNextDemiBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+
+
+/* Avenir Book */
+@font-face {
+	font-family:'AvenirBook';
+	src: url('../fonts/AvenirBook/AvenirBookRegular.eot');
+	src: url('../fonts/AvenirBook/AvenirBookRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirBook/AvenirBookRegular.woff') format('woff'),
+		 url('../fonts/AvenirBook/AvenirBookRegular.ttf') format('truetype'),
+		 url('../fonts/AvenirBook/AvenirBookRegular.svg#AvenirBookRegular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+@font-face {
+	font-family:'AvenirBook';
+	src: url('../fonts/AvenirBook/AvenirBookOblique.eot');
+	src: url('../fonts/AvenirBook/AvenirBookOblique.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirBook/AvenirBookOblique.woff') format('woff'),
+		 url('../fonts/AvenirBook/AvenirBookOblique.ttf') format('truetype'),
+		 url('../fonts/AvenirBook/AvenirBookOblique.svg#AvenirBookOblique') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+@font-face {
+	font-family:'AvenirBook';
+	src: url('../fonts/AvenirBook/AvenirMedium.eot');
+	src: url('../fonts/AvenirBook/AvenirMedium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirBook/AvenirMedium.woff') format('woff'),
+		 url('../fonts/AvenirBook/AvenirMedium.ttf') format('truetype'),
+		 url('../fonts/AvenirBook/AvenirMedium.svg#AvenirMedium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+
+@font-face {
+	font-family:'AvenirBook';
+	src: url('../fonts/AvenirBook/AvenirHeavy.eot');
+	src: url('../fonts/AvenirBook/AvenirHeavy.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirBook/AvenirHeavy.woff') format('woff'),
+		 url('../fonts/AvenirBook/AvenirHeavy.ttf') format('truetype'),
+		 url('../fonts/AvenirBook/AvenirHeavy.svg#AvenirHeavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+
+@font-face {
+	font-family:'AvenirBook';
+	src: url('../fonts/AvenirBook/AvenirHeavyOblique.eot');
+	src: url('../fonts/AvenirBook/AvenirHeavyOblique.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AvenirBook/AvenirHeavyOblique.woff') format('woff'),
+		 url('../fonts/AvenirBook/AvenirHeavyOblique.ttf') format('truetype'),
+		 url('../fonts/AvenirBook/AvenirHeavyOblique.svg#AvenirHeavyOblique') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}

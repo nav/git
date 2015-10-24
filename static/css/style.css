@@ -1,0 +1,160 @@
+@import url('fonts.css');
+
+body {
+	font-family: 'AvenirBook', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #636363;
+	line-height: 33px;
+}
+
+a {
+	color: #4A4A4A;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #D0021B; 
+}
+
+.container {
+	max-width: 850px;
+}
+
+/* Nav Aulakh: */
+.header__logo {
+	margin-top: 10%;
+	text-align: center;
+	background: url('../img/navaulakh.png') top center no-repeat;
+	background-size: 82px 82px;
+	padding-top: 98px;
+}
+.header__logo--condensed {
+	line-height: inherit;
+}
+.header__logo a, .header__logo--condensed a {
+	font-family: 'AvenirNext', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #4A90E2;
+}
+.header__logo--condensed {
+	padding: 0;
+	margin: 0;
+}
+.header__logo--condensed a {
+	font-size: 28px;
+}
+
+.nav--full .container {
+	width: 100%;
+	text-align: center;
+}
+.nav--condensed {
+	display: none;
+	background-color: #f8f8f8;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.1)
+}
+.nav--condensed .container {
+	width: 85%;
+	padding: 10px 0;
+}
+.nav--collapsed {
+	max-height: 0;
+	transition: max-height .25s;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+}
+.nav--collapsed.open {
+	max-height: 500px;
+	transition: max-height .5s;
+}
+.nav--collapsed .nav {
+	margin-bottom: 0;
+}
+.nav__item {
+	font-weight: 500;
+	display: inline;
+	margin-right: 18px;
+}
+.nav__item:last-child {
+	margin-right: 0
+}
+.nav__trigger {
+	border: 0;
+	padding: 4px 8px;
+	margin: 0;
+}
+.nav__trigger span {
+	display: block;
+	width: 2.5rem;
+	height: 0.45rem;
+	background: #333;
+	border-radius: 0.28571rem;
+	transition: 0.3s;
+	position: relative;
+	margin-bottom: .35rem;
+}
+.nav__trigger span:last-child {
+	margin-bottom: 0;
+}
+
+.docked-nav {
+	padding-top: 290px;
+}
+.docked-nav header {
+	display: none;
+}
+.docked-nav .nav--full {
+	display: none;
+}
+.docked-nav .nav--condensed {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	padding: 0;
+}
+.docked-nav .nav--collapsed {
+	margin-bottom: 0;
+	text-align: center;
+}    
+.docked-nav .nav__item {
+	margin-bottom: 0;
+}
+
+/* Retina */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	.header__logo {
+		background: url('../img/navaulakh@2x.png') top center no-repeat;
+		background-size: 82px 82px;
+	}
+
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.docked-nav .nav--collapsed .nav {
+		display: block;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	.docked-nav .nav--collapsed .nav {
+		display: flex;
+		display: -webkit-flex;
+	    justify-content: space-between;
+	    -webkit-justify-content: space-between;
+	}
+}
+
